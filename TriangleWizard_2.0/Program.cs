@@ -27,7 +27,7 @@ namespace TriangleWizard_2._0
             triangleList.Add(new List<int> { 223, 626, 034, 683, 839, 052, 627, 310, 713, 999, 629, 817, 410, 121 });
             triangleList.Add(new List<int> { 924, 622, 911, 233, 325, 139, 721, 218, 253, 223, 107, 233, 230, 124, 233 });
 
-            (int, List<int>) result = wiz.CalculatePath(triangleList);
+            (int, List<int>) result = wiz.CalculatePath(triangleList);      //Selects the correct path and calculates the sum, see TriangleWiz.cs
 
             Console.WriteLine("Output: ");
             Console.WriteLine("Max sum: {0} ", result.Item1);
